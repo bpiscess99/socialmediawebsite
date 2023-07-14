@@ -33,7 +33,7 @@ const MyFollowingPost = () => {
         setData(result);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [data]);
 
   // show and hide comments function
   const toggleComment = (posts) => {

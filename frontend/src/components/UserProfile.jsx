@@ -187,7 +187,8 @@ const Container = styled.div`
       text-align: center;
 
       img {
-        width: 30%;
+        width: 12vw;
+        height: 15vh;
         margin: 10px;
       }
     }

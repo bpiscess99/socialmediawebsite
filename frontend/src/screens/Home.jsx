@@ -313,11 +313,11 @@ const Container = styled.div`
       }
 
       .card-pic img {
-        width: 45px;
-        border-radius: 50%;
-        height: 30px;
+        width: 50px;
+        border-radius: 100%;
+        height: auto;
         object-fit: contain;
-        padding: 17px;
+        padding: 13px;
       }
     }
 

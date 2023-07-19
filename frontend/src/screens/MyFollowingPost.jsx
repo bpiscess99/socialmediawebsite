@@ -137,7 +137,7 @@ const MyFollowingPost = () => {
               {/* card header */}
               <div className="card-header">
                 <div className="card-pic">
-                  <img src={pic} alt="img" />
+                  <img src={posts.photo} alt="img" />
                 </div>
 
                 <h5>
@@ -279,7 +279,8 @@ const MyFollowingPost = () => {
         </div>
 
         <div className="close-comment">
-          <span className="material-symbols-outlined material-symbols-outlined-comment" onClick={() => {toggleComment()}}>close</span>
+          <span className="material-symbols-outlined material-symbols-outlined-comment" 
+          onClick={() => {toggleComment()}}>close</span>
         </div>
       </div>  
       )}
@@ -315,7 +316,7 @@ const Container = styled.div`
         border-radius: 100%;
         height: auto;
         object-fit: contain;
-        padding: 7px;
+        padding: 13px;
       }
     }
 

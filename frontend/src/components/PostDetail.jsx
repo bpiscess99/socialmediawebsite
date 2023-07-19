@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import pic from "../img/pic.jpg";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -41,7 +40,7 @@ const PostDetail = ({ item, toggleDetails }) => {
               style={{ borderBottom: "1px solid #00000029" }}
             >
               <div className="card-pic">
-                <img src={pic} alt="img" />
+                <img src={item.photo} alt="img" />
               </div>
 
               <h5>{item.postedBy.name}</h5>
@@ -144,7 +143,8 @@ const Container = styled.div`
 
       img {
         object-fit: contain;
-        width: 100%;
+        width: 41vw;
+        height: 60vh;
       }
     }
 
